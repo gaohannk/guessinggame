@@ -1,6 +1,11 @@
 #!/bin/bash
 
 echo "How many files are in the current directory?"
+
+function congrats {
+    echo "Contrguation! You guess right"
+}
+
 while true; 
 do
 	read -p  "Please input your guess:" num
@@ -12,7 +17,7 @@ do
     then
         echo "Two high";
     else
-        echo "Contrguation! You guess right";
+        congrats;
         exit 1;
     fi
 done
