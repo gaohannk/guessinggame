@@ -1,6 +1,6 @@
 README.md:
 	touch README.md
-	printf "# Project Title: GuessNumber <br>" >> README.md
+	printf "# Project Title: GuessNumber \n" >> README.md
 	printf "File generate time: " >> README.md
 	date >> README.md
 	printf "The number of lines of code " >> README.md
